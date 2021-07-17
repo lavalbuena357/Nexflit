@@ -1,0 +1,54 @@
+.container {
+  padding-bottom: 100px;
+}
+
+.email_id {
+  position: relative;
+}
+
+.placelabel {
+  font-size: 16px;
+  position: absolute;
+  top: 0%;
+  left: 10px;
+  color: #8c8c8c;
+  transition: font .1s ease,top .1s ease,transform .1s ease,-webkit-transform .1s ease,-moz-transform .1s ease,-o-transform .1s ease;
+}
+
+.id_email {
+  outline: none;
+  padding: 10px 10px 0;
+  height: 48px;
+  min-width: 450px;
+}
+
+.id_email:focus {
+  border-color: #0071eb;
+  outline: 0;
+}
+
+.btn_comenzar {
+  margin: 0 !important;
+  color: #fff;
+  background-color: #e50914;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 2px;
+  border-left: 1px solid #333;
+  min-height: 60px;
+  font-size: 1.625rem;
+  padding: 0 1em;
+}
+
+.btn_comenzar:hover {
+  background: #f40612;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+}
+
+.arrow {
+  height: .75em;
+  flex: 0 1 auto;
+  margin: 0 0 0 .2em;
+  position: relative;
+  top: .1em;
+}
