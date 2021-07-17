@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Section3.module.css';
 import MobileSection3 from '../../utils/images/mobile-section3.jpg';
+import MiniDownload from './MiniDownload/MiniDownload.jsx'
 
 function Section3() {
   return (
@@ -9,6 +10,9 @@ function Section3() {
         <div className={style.image_container}>
           <div className={style.image}>
             <img src={MobileSection3} alt="imagen del movil" />
+            <div className={style.download_container}>
+              <MiniDownload  className={style.mini}/>
+            </div>
           </div>
         </div>
         <div className={style.text_container}>
