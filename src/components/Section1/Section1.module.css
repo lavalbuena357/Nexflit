@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  background-image: url('../../utils//images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.gradient {
+  padding-bottom: 70px;
+  background: rgba(0,0,0,.4);
+  background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+.text_home {
+  color: white;
+  font-size: 2.125rem;
+  line-height: 1rem;
+  padding-top: 75px;
+  padding: 70px 45px 25px 45px;
+}
+
+.text_home p {
+  font-size: 1.725rem;
+  padding-bottom: 15px;
+}
+
+.text_home small {
+  font-size: 1.25rem;
+}
