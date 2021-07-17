@@ -52,3 +52,26 @@
   position: relative;
   top: .1em;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 996px) {
+  .container {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  .id_email {
+    min-width: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .placelabel {
+    font-size: 14px;
+  }
+  .btn_comenzar {
+    margin: 15px 0 !important;
+    min-height: auto;
+    font-size: 1rem;
+    padding: .6em 1em;
+  }
+}

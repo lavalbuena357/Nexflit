@@ -49,3 +49,25 @@
 .loading {
   width: 3em;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 996px) {
+  .container {
+    left: 50%;
+    bottom: 25%;
+    padding: 0;
+  }
+  .image_container {
+    margin: .5em 0 0 -2.3em;
+    flex-shrink: unset;
+  }
+  .image_container img {
+    height: auto;
+    width: 26%;
+    margin: 0;
+  }
+  .text {
+    flex-shrink: 0;
+    margin: 0 0 0 -2em;
+  }
+}

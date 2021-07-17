@@ -57,3 +57,36 @@
   border-style: none;
   cursor: pointer;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 996px) {
+  .container {
+    justify-content: space-between;
+    margin: 0 20px;
+    padding-top: 5px;
+    /* height: 4rem; */
+  }
+  .logo_container img {
+    width: 5rem;
+  }
+  .language {
+    font-size: .8rem;
+    padding: 5px;
+    padding-left: 1.1rem;
+    margin-right: 15px;
+  }
+  .language select {
+    font-size: 0.8rem;
+  }
+  .buttons {
+    align-items:flex-start;
+  }
+  .btn_login button {
+    padding: .25rem .25rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+  }
+}

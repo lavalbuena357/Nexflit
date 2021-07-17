@@ -6,6 +6,8 @@
   color: #fff;
   background: #000;
   margin-bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .card_container {
@@ -72,4 +74,33 @@
 .video {
   width: 100%;
   height: 100%;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 996px) {
+  .container {
+    padding: 30px;
+  }
+  .card_container {
+    flex-direction: column;
+  }
+  .card_text {
+    width: 100%;
+    padding: 0 ;
+    margin: 0;
+    text-align: center;
+  }
+  .card_text h1 {
+    font-size: 1.725rem;
+  }
+  .card_text h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .cardimg_container {
+    width: 100%;
+  }
+  .animation_container {
+    margin: -6% -5% -5% 0;
+  }
 }

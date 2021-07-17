@@ -4,6 +4,8 @@
   margin-bottom: 0;
   background: #000;
   color: #fff;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .card_container {
@@ -55,4 +57,32 @@
 
 .mini {
   position: relative;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 996px) {
+  .card_container {
+    flex-direction: column-reverse;
+  }
+  .text_container {
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .text_container h1 {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+  }
+  
+  .text_container h2 {
+    font-size: 1.1rem;
+  }
+  .image_container {
+    width: 100%;
+  }
+  .image img {
+    margin: 0 auto 25px auto;
+  }
 }
