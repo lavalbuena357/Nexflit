@@ -1,0 +1,162 @@
+.container {
+  text-align: center;
+  padding: 70px 45px;
+  position: relative;
+  border-bottom: 8px solid #222;
+  background: #000;
+}
+
+.text {
+  color: #fff;
+  font-size: 1.625rem;
+}
+
+.text h1{
+  font-size: 3.125rem;
+  line-height: 1,1;
+  margin-bottom: .5rem;
+}
+
+.faq_ul {
+  width: 75%;
+  margin: 2em auto;
+  max-width: 815px;
+}
+
+.faq_li {
+  list-style-type: none;
+  margin: 0 0 8px 0;
+}
+
+.question {
+  padding: .8em 2.2em .8em 1.2em;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  border: 0;
+  text-align: left;
+  display: block;
+  background: #303030;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.625rem;
+  margin-bottom: 1px;
+}
+
+.closePlus {
+  position: absolute;
+  right: 1em;
+  /* top: 50%; */
+  height: 1em;
+  width: 1em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.openPlus {
+  position: absolute;
+  right: 1.1em;
+  top: 45%;
+  height: 1em;
+  width: 1em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2rem;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.open, .close {
+  max-height: 1200px;
+  display: block;
+  text-align: left;
+  background: #303030;
+  overflow: hidden;
+}
+
+.open span, .close span {
+  display: inline-block;
+  padding: 1.2em;
+}
+
+.close {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .25s cubic-bezier(.5,0,.1,1);
+}
+
+.open {
+  max-height: 1200px;
+  transition: max-height .25s cubic-bezier(.5,0,.1,1)
+}
+
+
+/******************************/
+.email_form {
+  margin: 0 auto;
+  max-width: 950px;
+  padding-top: .85rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.email_form h3 {
+  max-width: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0 5%;
+}
+
+.input_email {
+  padding-bottom: 10px;
+}
+
+.email_id {
+  position: relative;
+}
+
+.placelabel {
+  font-size: 16px;
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  color: #8c8c8c;
+}
+
+.id_email {
+  outline: none;
+  padding: 10px 10px 0;
+  height: 48px;
+  min-width: 450px;
+}
+
+.id_email:focus {
+  border-color: #0071eb;
+  outline: 0;
+}
+
+.btn_comenzar {
+  margin: 0 !important;
+  color: #fff;
+  background-color: #e50914;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 2px;
+  border-left: 1px solid #333;
+  min-height: 60px;
+  font-size: 1.625rem;
+  padding: 0 1em;
+}
+
+.btn_comenzar:hover {
+  background: #f40612;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+}
+
+.arrow {
+  height: .75em;
+  flex: 0 1 auto;
+  margin: 0 0 0 .2em;
+  position: relative;
+  top: .1em;
+}
