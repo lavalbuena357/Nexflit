@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
+      asdads
       <Section1 />
       <Section2 />
       <Section3 />
